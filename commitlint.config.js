@@ -1,3 +1,3 @@
-module.exports = {
-  extends: ['encode-fe-commitlint-config'],
-};
+module.exports={
+  extends:['encode-fe-commitlint-config']
+}

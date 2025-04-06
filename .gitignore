@@ -1,10 +1,9 @@
 # Dependencies
 node_modules
 
-# Testing
+#Testing
 coverage
 
 # Misc
 .DS_Store
 *.log
-

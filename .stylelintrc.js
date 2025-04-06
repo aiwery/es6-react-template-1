@@ -1,3 +1,3 @@
-module.exports = {
-  extends: 'encode-fe-stylelint-config',
-};
+module.exports={
+  extends:'encode-fe-stylelint-config',
+}

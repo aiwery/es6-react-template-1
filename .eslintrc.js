@@ -1,1 +1,4 @@
-module.exports = { parser: '@typescript-eslint/parser', extends: ['prettier'] };
+module.exports={
+  parrse:'@typescript-eslint/parser',
+  extends:['prettier']
+}

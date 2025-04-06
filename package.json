@@ -1,21 +1,16 @@
 {
-  "name": "encode-es6-react-template",
-  "description": "印客学院 ES6 实战项目",
-  "private": true,
+  "name":"es6-react-template",
+  "description": "A template for React projects using ES6",
+  "version": "1.0.0",
+  "private":true,
+  "main":"index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
-    "init": "pnpm install",
-    "dev": "pnpm run dev:build && nodemon ./public/server",
-    "dev:build": "cross-env NODE_ENV=development webpack --config ./webpack/server.config.ts",
-    "start": "node ./public/server",
-    "build": "run-s build:*",
-    "build:server": "cross-env NODE_ENV=production webpack --config ./webpack/server.config.ts",
-    "build:client": "cross-env NODE_ENV=production webpack --config ./webpack/client.config.ts",
-    "analyze:server": "cross-env NODE_ENV=analyze webpack --config ./webpack/server.config.ts",
-    "analyze:client": "cross-env NODE_ENV=analyze webpack --config ./webpack/client.config.ts",
-    "encode-fe-lint-scan": "encode-fe-lint scan",
-    "encode-fe-lint-fix": "encode-fe-lint fix"
+    "prepare":"husky init",
+    "init":"pnpm install",
+    "encode-fe-lint-scan":"encode-fe-lint scan",
+    "encode-fe-lint-fix":"encode-fe-lint fix"
+
   },
   "keywords": [
     "encode",
@@ -23,17 +18,17 @@
     "webpack",
     "react"
   ],
-  "author": "chenghuai",
+  "author": "songyu",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/es6-react-template.git"
+    "type":"git",
+    "url":"git+https://github.com/aiwery/es6-react-template.git"
   },
   "engines": {
-    "node": ">=12",
-    "npm": ">=6"
+    "node":">=12",
+    "npm":">=6"
   },
-  "browserslist": [
-    "> 1%",
+  "browerslist":[
+    ">1%",
     "last 2 versions"
   ],
   "license": "ISC",
@@ -104,12 +99,12 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.6",
+    "@babel/runtime": "^7.14.5",
     "@loadable/component": "^5.15.0",
     "@loadable/server": "^5.15.0",
-    "@reduxjs/toolkit": "^1.6.0",
-    "autoprefixer": "^10.2.6",
-    "axios": "^0.21.1",
+    "@reduxjs/toolkit":"^1.6.0",
+    "autoprefixer":"^10.2.6",
+    "axios":"^0.21.1",
     "chalk": "^4.1.1",
     "compression": "^1.7.4",
     "connected-react-router": "^6.9.1",
@@ -135,14 +130,12 @@
     "serialize-javascript": "^6.0.0",
     "serve-favicon": "^2.5.0"
   },
-  "bugs": {
-    "url": "https://github.com/encode-studio-fe/es6-react-template/issues"
-  },
-  "homepage": "https://github.com/encode-studio-fe/es6-react-template#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "encode-fe-lint commit-file-scan",
-      "commit-msg": "encode-fe-lint commit-msg-scan"
+  "homepage": "htt[ps://github.com/aiwery/es6-react-template#readme",
+  "husky":{
+    "hooks":{
+      "pre-commit":"encode-fe-lint commit-file-scan",
+      "commit-msg":"encode-fe-lint commit-msg-scan"
     }
   }
+
 }

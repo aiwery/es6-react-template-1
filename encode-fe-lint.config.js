@@ -1,6 +1,6 @@
-module.exports = {
-  enableESLint: true,
-  enableStylelint: true,
-  enableMarkdownlint: false,
-  enablePrettier: true,
-};
+module.exports={
+  enableESLint:true,
+  enableStylelint:true,
+  enableMarkdownlint:false,
+  enablePrettier:true
+}
