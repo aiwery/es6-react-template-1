@@ -1,6 +1,6 @@
 # es6-react-template
 
-> 印客学院 ES6 React 项目模板
+> ES6 React 项目模板
 
 ## ⛰️ 能力支持
 
